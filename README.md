@@ -8,6 +8,10 @@ sleepy_panda.py: Requires Pandas
 sleepy_panda_aggregates.py: Requires Pandas, NumPy
 
     aggregators: df.groupby().___.count().reset_index().pivot(columns = '', index = '', values = '').reset_index()
+    
+sleepy_panda_merges.py: Requires Pandas
+
+        merges: working on multiple csvs and dataframes
 
 csv tables:
     
@@ -16,4 +20,8 @@ csv tables:
     page_visits
     ad_clicks
     
+    visits
+    cart
+    checkout
+    purchase
     
